@@ -4,6 +4,11 @@
 	align-items: center;
 	justify-content: center;
 
+	@include respond(small-phone) {
+		order: 1;
+		flex: 0 0 97%;
+	}
+
 	&__input {
 		font-family: inherit;
 		font-size: inherit;

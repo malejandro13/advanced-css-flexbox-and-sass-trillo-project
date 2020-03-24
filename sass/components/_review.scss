@@ -4,7 +4,13 @@
 	padding: 3rem;
 	margin-bottom: 3.5rem;
 	position: relative;
+	border-radius: 10px;
 	overflow: hidden;
+
+	@include respond(tab-port) {
+		padding: 2rem;
+		margin-bottom: 3rem;
+	}
 
 	&__text {
 		position: relative;
